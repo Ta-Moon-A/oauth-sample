@@ -54,9 +54,9 @@ namespace VoteApp
             //   consumerKey: "",
             //   consumerSecret: "");
 
-            //app.UseFacebookAuthentication(
-            //   appId: "",
-            //   appSecret: "");
+            app.UseFacebookAuthentication(
+               appId: "1830664510548259",
+               appSecret: "64e643313b7d77ae1513fdbd62b99f38");
 
             app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
             {
